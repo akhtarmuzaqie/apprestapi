@@ -1,0 +1,29 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "aplikasi rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhtarmuzaqie/apprestapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Akhtar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhtarmuzaqie/apprestapi/issues"
+  },
+  "homepage": "https://github.com/akhtarmuzaqie/apprestapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
