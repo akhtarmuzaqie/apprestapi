@@ -4,11 +4,14 @@ module.exports = function (app) {
     var myjson = require('./controller');
 
     app.route('/')
-        .get(myjson.index)
+        .get(myjson.index);
 
     app.route('/mahasiswa')
-        .get(myjson.tampilSemuaMahasiswa)
+        .get(myjson.tampilSemuaMahasiswa);
     
     app.route('/mahasiswa/:id')
-        .get(myjson.tampilBerdsarkanID)    
+        .get(myjson.tampilBerdsarkanID);
+
+    app.route('/mahasiswa/tambah')
+        .post(myjson.tambahMahasiswa);
 }
